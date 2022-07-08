@@ -1,6 +1,36 @@
 @import 'variables.scss';
 
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.element {
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+.btn-edit{
+  background-color: #2ddfdf;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+}
+
+.btn-edit:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -38,3 +68,4 @@
     transform: rotate(360deg);
   }
 }
+ */
